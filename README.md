@@ -55,4 +55,4 @@ Feel free to contact me on:
 - [Medium](https://medium.com/@prerakchoksi)
 - [Git](https://github.com/prerak13)
 - [Linkedin](https://www.linkedin.com/in/prerak13/)
-- [Email] (pc@dal.ca)
+- pc@dal.ca
