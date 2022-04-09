@@ -1,0 +1,23 @@
+version: '3.4'
+services:
+  app0:
+    image: prerak13/app0
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+  employee:
+    image: prerak13/app1
+    volumes:
+      - ./app1/employee.csv:/usr/src/app/src/main/resources/employee.csv
+    networks:
+      - app-network
+  customer:
+    image: prerak13/app2
+    volumes:
+      - ./app2/customer.csv:/usr/src/app/src/main/resources/customer.csv
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge
